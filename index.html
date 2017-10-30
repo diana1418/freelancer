@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!--header-->
     <header>
         <h2 class="text-uppercase">start bootstrap</h1>
         <nav>
@@ -21,17 +22,91 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <!--first part-->
+    <section class="container">
         <figure>
             <img src="assets/images/profile.png" alt="person in a suit">
         </figure>
         <div>
-            <h1 class="text-uppercase">start bootstrap</h1>
-            <span>
-
-            </span>
+            <span class="text-uppercase"></span>
+            <hr class="star1">
             <p>Web Developer - Graphic Artist - User Experience Designer</p>
         </div>
     </section>
+    <!--second part-->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <hr class="star2">
+            <figure class="image-portfolio">
+                <img src="assets/images/portfolio/cabin.png" alt="cabañita">
+                <img src="assets/images/portfolio/cake.png" alt="cake">  
+                <img src="assets/images/portfolio/circus.png" alt="circus">  
+                <img src="assets/images/portfolio/game.png" alt="game">  
+                <img src="assets/images/portfolio/safe.png" alt="safe">  
+                <img src="assets/images/portfolio/submarine.png" alt="submarine">
+            </figure>
+        </div>    
+    </section>
+    <!--third part-->
+    <section class="about">
+        <div class="container">
+            <h2 class="text-center">About</h2>
+            <hr class="star3">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <a href="#">
+                <i class="fa fa-download">Download Theme</i>
+            </a>
+        </div>
+    </section>
+    <!--fourth part-->
+    <section class="contact">
+         <div class="container">
+             <h2 class="text-center">Contact Me</h2>
+             <hr>
+             <form>
+                 <div>
+                     <label for="name"></label>
+                     <input type="text" placeholder="Name">
+                 </div>
+                 <div>
+                     <label for="email"></label>
+                     <input type="text" placeholder="Email Address">                        
+                 </div>
+                 <div>
+                     <label for="phone"></label>
+                     <input type="text" placeholder="Phone Number">
+                 </div>
+                 <div>
+                     <label for="message"></label>
+                     <input type="text" placeholder="Message">
+                 </div>
+             </form>
+         </div>
+         <div>
+             <hr>
+            <button type="submit">Send</button>                
+         </div>
+    </section>
+    <!--footer-->
+    <footer>
+     <div>
+         <h3>Location</h3>
+         <p>3481 Melrose Place
+             <br>
+             Beverly Hills, CA 90210</p>
+     </div>
+     <div>
+         <h3 class="text-uppercase">Around the web</h3>
+         <ul>
+             <li>
+                 <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>                        
+                 </a>
+             </li>
+         </ul>
+     </div>
+    </footer>
 </body>
 </html>
