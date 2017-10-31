@@ -62,6 +62,10 @@ a:hover {
 color:  #18bc9c;
 }
 
+.start{
+    width: 100%;
+}
+
 /*first part*/
 .section{
     position: relative;
@@ -87,6 +91,12 @@ img {
 div{
     background-color: #18bc9c;
 }
+.start span{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
 
 h1 {
     margin-top: 0;
@@ -101,17 +111,32 @@ hr {
     border-color: white;
 }
 /*second part*/
+.portfolio section{
+background-color: white;
+}
+
+.portfolio div {
+    background-color: white;
+}
+
 .portfolio p {
     margin:0;
 }
 
 .portfolio figure{
     display: inline-block;
+    background-color: white;
+    height: 800px;
 }
 
 .portfolio img{
     margin: 0;
     padding: 70px;
+}
+
+.portfolio h2{
+    background-color: white;
+    color: #2c3e50;
 }
 /*third part*/
 
@@ -122,6 +147,7 @@ hr {
 }
 .contact div{
     background-color: white;
+    text-decoration: none;
 }
 .contact h2{
     color:   #212529;    
@@ -155,4 +181,11 @@ color:  #18bc9c;
 
 .end{
     display: block;
+}
+
+.end p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 250px;
+    text-align: center;
 }
