@@ -1,191 +1,142 @@
 /* Estilos de tu proyecto */
-/*
-background-color: #2c3e50
- #18bc9c
-  #212529
-*/
 
 /*general*/
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Lato', sans-serif;    
-    margin: 0;
-    padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;    
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
-.text-uppercase{
-    text-transform: uppercase;
-}
+
 /*HEADER*/
 header{
-background-color: #2c3e50;
-position: fixed;
-width: 100%;
-height: 120px;
-z-index: 1000;
+  background-color: #2c3e50;
+  width: 100%;
 }
 
-ul{
-    margin-left: 600px;  
-    text-align: center;
-    margin-left: 0px;
-    margin-bottom: 16px;
-    padding-left: 0px;
-
-}
-nav {
-margin-left: 300px;
-}
-h2, nav{
-    display: inline-block;
-    margin: 0;
-    color: white;
+.backgr-header {
+  background-color: #2c3e50;
 }
 
-h2{
-    margin-left: 40px;
-    margin-top: 40px;
-    margin-right: 600px;
+.backgr-steel {
+  background-color: #2c3e50;    
 }
 
-li{
-    display: inline-block;
-    list-style: none;  
-    padding: 10px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;    
-}
-a:hover {
-color:  #18bc9c;
-}
-
+/*START BOOTSTRAP*/
 .start{
-    width: 100%;
+  width: 100%;
+  height: 600px;
+  background: #18bc9c;
 }
 
-/*first part*/
-.section{
-    position: relative;
-    margin-top: 150px;
-    background: #18bc9c;
+.start figure {
+  margin: 0;
+  width: 100%;
 }
 
-figure{
-    background-color: #18bc9c; 
-    height: 400px;   
-    margin: 0;
-    padding: 0;
-   }
-
-img {
-    margin-bottom: 20px;    
-    margin-left: 600px;
-    margin-right: 530px;
-    margin-top: 150px;    
-    width: 256px;    
+.start figure img {
+  margin-top: 70px;
 }
 
-div{
-    background-color: #18bc9c;
+.fa-star {
+  font-size: 30px;
+  color: #ffffff;
 }
-.start span{
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bolder;
+  
+div.line::after {
+  display: inline-block;
+  margin: 0 0 12px 10px;
+  height: 3px;
+  content: " ";
+  background-color: #fff;
+  width: 140px;
 }
-
-h1 {
-    margin-top: 0;
-}
-
-hr {
-    margin-top: 0px;
-    border-top-width: 4px;
-    border-left-width: 01px;
-    margin-bottom: 0px;
-    border-bottom-width: 0px;
-    border-color: white;
-}
-/*second part*/
-.portfolio section{
-background-color: white;
+  
+div.line::before {
+  display: inline-block;
+  margin: 0 10px 12px 0;
+  height: 3px;
+  content: " ";
+  background-color: #fff;
+  width: 140px;
 }
 
-.portfolio div {
-    background-color: white;
+/*PORTFOLIO*/
+.steel{
+  color: #2c3e50; 
 }
 
-.portfolio p {
-    margin:0;
+.star-steel {
+  font-size: 30px;
+  color: #2c3e50;
+}
+  
+div.line-steel::after {
+  display: inline-block;
+  margin: 0 0 12px 10px;
+  height: 3px;
+  content: " ";
+  background-color: #2c3e50;
+  width: 140px;
+}
+  
+div.line-steel::before {
+  display: inline-block;
+  margin: 0 10px 12px 0;
+  height: 3px;
+  content: " ";
+  background-color: #2c3e50;
+  width: 140px;
 }
 
-.portfolio figure{
-    display: inline-block;
-    background-color: white;
-    height: 800px;
+.image-portfolio img {
+  width: 300px;
+  height: 256px;
+  margin-bottom: 20px;   
 }
 
-.portfolio img{
-    margin: 0;
-    padding: 70px;
+/* ABOUT */
+.about {
+  width: 100%;
+  height: 600px;
+  background: #18bc9c;
 }
 
-.portfolio h2{
-    background-color: white;
-    color: #2c3e50;
-}
-/*third part*/
-
-
-/*fourth part*/
-.contact {
-    background-color: white;
-}
-.contact div{
-    background-color: white;
-    text-decoration: none;
-}
-.contact h2{
-    color:   #212529;    
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 600px;
-    font-weight: bolder;
+.about h2 {
+  padding-top: 50px;
 }
 
-
-
-/*footer*/
-footer{
-    background-color: #2c3e50;
-    position: relative;    
-}
-footer div{
-    padding: 40px;
-    display: inline-block;
-    background-color: #2c3e50    
+.about span {
+  display: inline-block;
 }
 
-footer h3,p{
-    color: white;
+.about button {
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background-color: transparent;
 }
 
-.f-a{
-text-decoration: none;
-color:  #18bc9c;
+/* Footer */
+footer {
+  background-color: #2c3e50;  
+  color: #ffffff;
 }
 
-.end{
-    display: block;
+.marg-bt0 {
+  margin-bottom: 0;
 }
 
-.end p{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 250px;
-    text-align: center;
+.a-green {
+  color: #18bc9c;
+}
+
+.list-inline li {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2c3e50;    
+  
 }
